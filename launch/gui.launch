@@ -1,0 +1,5 @@
+<launch> 
+  <node name="qt_gui_node" pkg="qt_gui" type="qt_gui_node" output="screen">
+    <param name="resources_base_folder" value="$(find qt_gui)/qt_resources" />
+  </node>
+</launch>
